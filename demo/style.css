@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(255, 255, 255) ;
+    display: flex;
+    padding: 1rem 5rem ;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 10rem;
+    height: auto;
+    
+
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.links{
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+
+.links ul li {
+    font-size:  22px;
+    font-weight: 500;
+    color: aliceblue;
+    background-color: rgb(185, 45, 45);
+    padding: 8px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+nav{
+    width: 100%;
+    height: 8vh;
+    background-color: rgba(233, 227, 227, 0.622);
+    padding-top: 15px;
+    padding-left: 3rem;
+}
+
+nav ul{
+    width: 100%;
+    color: red;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li{ 
+        font-size: 20px;
+
+}
+
+.hero{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+.hero_img{
+    width: 100%;
+    height: 100%;
+}
+
+.hero_img img{
+    width: 100%;
+    height: 100%;
+    background-repeat: none;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.add{
+    position: absolute;
+    width: 27rem;
+    height: 27rem;
+    background-color: rgb(208, 212, 212);
+    right: 4rem;
+    top: 40px;
+    border-radius: 20px;
+    
+
+}
+
+.add form{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    position: relative;
+
+}
+
+.add form .up{
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+
+.add form input{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 45px;
+    border: none;
+    outline: none;  
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+.add form input::placeholder{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+/* .add form label{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-size: 20px;
+
+} */
+
+button{
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(141, 49, 49);
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(222, 207, 207);
+    color: rgb(163, 56, 56);
+}
+
+.hero h1{
+    font-size: 30px;
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    font-weight: 20px;
+}
+
+.boxes{
+    position: absolute;
+    width: 40rem;
+    height: 22rem;
+    left: 40px;
+    bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.boxes .box{
+    position: relative;
+    width: 47%;
+    height: 45%;
+    background-color: rgb(255, 255, 255);
+    gap: 20px;
+    border-radius: 15px;
+    margin-left: 10px;
+
+}
+
+.boxes .box h3{
+   font-size: 20px;
+   padding: 10px;
+}
+
+.boxes .box p{
+   position: absolute;
+   bottom: 40px;
+   text-wrap: wrap;
+   width: 13rem;
+   height: 3rem;
+   font-size: 17px;
+   padding: 10px;
+}
+
+
+.boxes .box img{
+    position: absolute;
+    right: 0;
+    padding-right: 5px;
+    bottom: 20px;
+    width: 100px;
+    height: 80px;
+    object-fit: cover ;
+    background-repeat: no-repeat;
+    
+}
+
+footer{
+    width: 100%;
+    height: 23rem;
+    background-color: rgb(238, 47, 47);
+
+}
+
+footer .news{
+    width: 100%;
+    height: 6rem;
+    background-color: rgb(238, 47, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+footer .news span{
+    position:relative;
+    width: 40%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding-left: 20px;
+    
+}
+
+footer .news span input{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    /* padding-right: 20px; */
+    font-size: 18px;
+
+
+}
+
+
+footer .news span button{
+    position: absolute;
+    width: 7rem;
+    height: 100%;
+    right: 0;
+    border-radius: 30px;
+    outline: none;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+   
+} 
+
+footer .link{
+    display: flex;
+    gap: 30px;
+    padding-left: 12rem;
+    justify-content: space-evenly;
+
+}
+
+footer .link h2{
+    font-size: 30px;
+    padding: 1rem 0rem;
+    color: aliceblue;
+
+}
+
+footer .link ul{
+    list-style: none;
+    font: 90px;
+    padding-left: 3rem;
+}
+
+footer .link ul li{
+    font-size: 20px;
+    color: aliceblue;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+footer .foot_logo{
+    width: 13rem;
+    height: 4rem;
+}
+
+footer .foot_logo img{
+    width: 100%;
+    height: 100%;
+    padding-right: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+
+
+
